@@ -1,11 +1,13 @@
 # VRDL_HW3
 
-Code for Selected Topics in Visual Recognition using Deep Learning(2021 Autumn NYCU) Homework3: Nuclei segmentation. 
+Code for Selected Topics in Visual Recognition using Deep Learning(2021 Autumn NYCU) 
+Homework3: Nuclei segmentation. 
+I use [Detectron2](https://github.com/facebookresearch/detectron2) library to handle this assignment.
 
 ## Requirements
 
 I use Google Colab as the environment.
-Tho install and import the required library and tools, run the command on Google Colab:
+To install and import the required library and tools, run the command on Google Colab:
 
 ```setup
 import os
@@ -51,7 +53,7 @@ gdd.download_file_from_google_drive(file_id='1nEJ7NTtHcCHNQqUXaoPk55VH3Uwh4QGG',
 
 To train the model, run the train.ipynb file on Google Colab.
 
-> This command has been included in train.ipynb file.
+> This process has been included in train.ipynb file.
 
 After running, you will get some output files: nucleus_cocoformat.json, model_final.pth
 
@@ -84,4 +86,10 @@ After running, you will get an output file: answer.json for submission
 My model achieves the following performance on CodaLab:
 | Model name  | Top 1 mAP    |
 | ----------- |------------- |
-| My model  |    24.237%   |
+| My model    |    24.237%   |
+
+
+## Reference
+- https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5
+- https://github.com/vbnmzxc9513/Nuclei-detection_detectron2
+- https://www.kaggle.com/c/data-science-bowl-2018/discussion/56326
