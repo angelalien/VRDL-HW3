@@ -1,7 +1,7 @@
 # VRDL_HW3
 
-Code for Selected Topics in Visual Recognition using Deep Learning(2021 Autumn NYCU) 
-Homework3: Nuclei segmentation. 
+Code for Selected Topics in Visual Recognition using Deep Learning(2021 Autumn NYCU)   
+Homework3: Nuclei segmentation.   
 I use [Detectron2](https://github.com/facebookresearch/detectron2) library to handle this assignment.
 
 ## Requirements
